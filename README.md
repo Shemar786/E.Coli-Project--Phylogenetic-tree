@@ -171,12 +171,7 @@ python3 build_tree_paperstyle.py --fastadir data/ecoli_genomes --tree results/tr
 ## 👨‍💼 Author
 
 **Shemar Stewart**
-Vice President, SGA 2025–2026
-Voorhees University
-Summer Researcher, University of Notre Dame (CSE Lab)
-[GitHub: @shemarstewart](https://github.com/shemarstewart)
 
----
 
 ## 🤔 References
 
