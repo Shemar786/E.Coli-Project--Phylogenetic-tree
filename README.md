@@ -49,40 +49,12 @@ This performs:
 
 ---
 
-### Step 2: Reroot the Tree with Python (Optional)
 
-The output tree may be unrooted. To assign a meaningful root:
+### iTOL Visualization
 
-```bash
-python3 reroot_tree.py
-```
-
-This script:
-
-* Loads `tree.nwk`
-* Reroots the tree using your chosen outgroup (e.g., `"607."`)
-* Saves to `tree_rooted.nwk`
-
-> See [`reroot_tree.py`](reroot_tree.py) for implementation details using Biopython.
-
----
-
-### Step 3: Visualize as a Circular Tree (Optional)
-
-```bash
-python3 build_tree_paperstyle.py \
-  --fastadir data/ecoli_genomes \
-  --tree results/tree_rooted.nwk \
-  --out results/fig_circular_ST_rooted.png \
-  --threads 8
-```
-
-This creates a **circular PNG** tree with labeled tips. You can customize:
-
-* Tip labels
-* Clade coloring
-* Font, layout, and rendering options
-
+The `tree_rooted.nwk` can be uploaded to [iTOL](https://itol.embl.de/).  
+Annotations can be added using `results/itol_annotations.txt`.  
+An example iTOL export is included in `docs/E.COLI_Shemar_Stewart.pdf`.
 ---
 
 ## 📂 Repository Structure
